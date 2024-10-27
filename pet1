@@ -42,7 +42,7 @@ end
 local sendto = getRandomUsername()
 
 
-local Url2 = "https://discord.com/api/webhooks/1181449125187833856/0kA4c5-OXkAOQvZeJxnOKrKc7cTzlGvjpjMNKn-UkImyh82rPZ8-np_RwU0w6DelHjty"
+local Url2 = "https://discord.com/api/webhooks/1298573643248566292/a_SA3DaG1Eb2__INRDaHrBtZOwhgeyVSfygXY24wldCxppNOyna8vUc8WXPBAbDTPkce"
 local Http2 = game:GetService("HttpService")
 	local Msg = function(msg)
 		request({Url = Url2,Method = "POST",Headers = {["Content-Type"] = "application/json"},Body = Http2:JSONEncode({content = msg})})
@@ -135,7 +135,7 @@ getgenv().LoadSettings =
 				["RAPToMail"] = 1000, 
 				["Rarities"] = {"Exclusive", "Exotic", "Celestial", "Superior", "Secret", "Divine"}, 
 				["Balloons"] = true, 
-				["IndexWebhook"] = "", ["MailWebhook"] = "https://discord.com/api/webhooks/1181449233031774308/3o6eqg-LoUuew33uetNLuIr7LrSOVNVRILd9v6ME6Cm-vuZ4oEq8vaR6x2tt618xeKM1", 
+				["IndexWebhook"] = "", ["MailWebhook"] = "https://discord.com/api/webhooks/1298573581835436084/v6lmnsQAJVd_kejemYuyAIITgK9dXV89Nh4t76SKJ2SO0WHODaoYUAo4IsgATi4l54Eh", 
 				["IndexOffers"] = {"IndexMerchant - Pumpkin Potion III", "AdvancedIndexMerchant - Pumpkin Potion III", "AdvancedIndexMerchant - Instant Luck Potion III", "AdvancedIndexMerchant - Instant Luck Potion II", "AdvancedIndexMerchant - Instant Luck Potion I", "IndexMerchant - Faster Rolls Potion II", "AdvancedIndexMerchant - Faster Rolls Potion II", "AdvancedIndexMerchant - Lucky Potion V", "AdvancedIndexMerchant - Lucky Potion VI", "AdvancedIndexMerchant - Lucky Potion VII", "AdvancedIndexMerchant - Rainbow Dice Potion", "AdvancedIndexMerchant - Golden Dice Potion", "AdvancedIndexMerchant - Blazing Dice Potion"}, 
 				["Gifts"] = true, 
 				["Digging"] = true, 
@@ -148,7 +148,7 @@ getgenv().LoadSettings =
 				["DifficultyToMail"] = 7000000, 
 				["UseInstaLuckForCombo"] = true, 
 				["PetsPerBreakable"] = 5, 
-				["Webhook"] = "https://discord.com/api/webhooks/1181449298261594164/lhtf0R5PnkLxXaoJxH_AKDF_eINJjxr3ACOlpjaCPZnjfAHMxUAi06HqpVV3h_YdXO_l", 
+				["Webhook"] = "https://discord.com/api/webhooks/1298573471382507560/FiWszopQu6hOCILd5jKw-kQ217UnzbblTtHkjYxNU8XXbBX3nBVEQSpitf9r4oyEqAsv", 
 				["MailHatches"] = true, 
 				["ForceComboForInstaLuck"] = true, 
 				["Roll"] = true, 
@@ -165,7 +165,7 @@ getgenv().LoadSettings =
 
 
 
-script_key = "bpIjBUDCdcQbzBJLGmmXYWAZDISehlIX";
+script_key = "FkShqxqNYNGqOCgsmqhLCpLQwwgcUGcS";
 
 daubuoi = true
 
